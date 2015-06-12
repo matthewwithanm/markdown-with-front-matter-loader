@@ -1,0 +1,31 @@
+{
+  "name": "markdown-with-front-matter-loader",
+  "version": "0.1.0",
+  "description": "A webpack loader for markdown with yaml front matter",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:matthewwithanm/markdown-with-front-matter-loader.git"
+  },
+  "keywords": [
+    "markdown",
+    "yaml",
+    "jekyll",
+    "webpack",
+    "loader"
+  ],
+  "author": "Matthew Dapena-Tretter <m@tthewwithanm.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matthewwithanm/markdown-with-front-matter-loader/issues"
+  },
+  "homepage": "https://github.com/matthewwithanm/markdown-with-front-matter-loader",
+  "dependencies": {
+    "loader-utils": "^0.2.9",
+    "marked": "^0.3.3",
+    "yaml-front-matter": "^3.2.3"
+  }
+}
