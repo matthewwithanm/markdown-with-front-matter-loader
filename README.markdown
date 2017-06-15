@@ -4,17 +4,25 @@ A webpack loader for Markdown files with optional [yaml front matter][1].
 Installation
 ------------
 
-npm install markdown-with-front-matter-loader
+```
+npm install --dev markdown-with-front-matter-loader
+```
 
+or 
+
+```
+yarn add --dev markdown-with-front-matter-loader
+```
 
 Usage
 -----
+
 
 ```js
 {
   module: {
     loaders: {
-      {test: /\.md$/, loader: 'markdown-with-front-matter'},
+      {test: /\.md$/, loader: 'markdown-with-front-matter-loader'},
     ]
   }
 }
